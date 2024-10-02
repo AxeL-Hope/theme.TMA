@@ -1,153 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
-    <title>Telegram Theme Colors</title>
-    <style>
-        body {
-            font-family: sans-serif;
-            margin: 20px;
-        }
-
-        .color-container {
-            display: flex;
-            align-items: center;
-            margin-bottom: 10px;
-        }
-
-        .color-box {
-            width: 50px;
-            height: 50px;
-            margin-right: 10px;
-            border: 3px solid #ccc;
-            border-radius: 15px;
-        }
-
-        .color-name {
-            font-weight: bold;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <title>Own.TMA</title>
 </head>
-  <body>
-  
-  <h1>Telegram Theme Colors1</h1>
-  
-  <div class="color-container">
-      <div class="color-box" style="background-color: var(--tg-theme-bg-color);"></div>
-      <span class="color-name">tg-theme-bg-color</span>
-  </div>
-  
-  <div class="color-container">
-      <div class="color-box" style="background-color: var(--tg-theme-accent-color);"></div>
-      <span class="color-name">tg-theme-accent-color</span>
-  </div>
-  
-  <div class="color-container">
-      <div class="color-box" style="background-color: var(--tg-theme-hint-color);"></div>
-      <span class="color-name">tg-theme-hint-color</span>
-  </div>
-  
-  <div class="color-container">
-      <div class="color-box" style="background-color: var(--tg-theme-text-color);"></div>
-      <span class="color-name">tg-theme-text-color</span>
-  </div>
-  
-  <div class="color-container">
-      <div class="color-box" style="background-color: var(--tg-theme-secondary-text-color);"></div>
-      <span class="color-name">tg-theme-secondary-text-color</span>
-  </div>
-  
-  <div class="color-container">
-      <div class="color-box" style="background-color: var(--tg-theme-disabled-text-color);"></div>
-      <span class="color-name">tg-theme-disabled-text-color</span>
-  </div>
-  
-  <div class="color-container">
-      <div class="color-box" style="background-color: var(--tg-theme-link-color);"></div>
-      <span class="color-name">tg-theme-link-color</span>
-  </div>
-  
-  <div class="color-container">
-      <div class="color-box" style="background-color: var(--tg-theme-selection-color);"></div>
-      <span class="color-name">tg-theme-selection-color</span>
-  </div>
-  
-  <div class="color-container">
-      <div class="color-box" style="background-color: var(--tg-theme-secondary-bg-color);"></div>
-      <span class="color-name">tg-theme-secondary-bg-color</span>
-  </div>
-  
-  <div class="color-container">
-      <div class="color-box" style="background-color: var(--tg-theme-input-bg-color);"></div>
-      <span class="color-name">tg-theme-input-bg-color</span>
-  </div>
-  
-  <div class="color-container">
-      <div class="color-box" style="background-color: var(--tg-theme-button-bg-color);"></div>
-      <span class="color-name">tg-theme-button-bg-color</span>
-  </div>
-  
-  <div class="color-container">
-      <div class="color-box" style="background-color: var(--tg-theme-selected-bg-color);"></div>
-      <span class="color-name">tg-theme-selected-bg-color</span>
-  </div>
-  
-  <div class="color-container">
-      <div class="color-box" style="background-color: var(--tg-theme-popup-bg-color);"></div>
-      <span class="color-name">tg-theme-popup-bg-color</span>
-  </div>
-  
-  <div class="color-container">
-      <div class="color-box" style="background-color: var(--tg-theme-overlay-bg-color);"></div>
-      <span class="color-name">tg-theme-overlay-bg-color</span>
-  </div>
-  
-  <div class="color-container">
-      <div class="color-box" style="background-color: var(--tg-theme-border-color);"></div>
-      <span class="color-name">tg-theme-border-color</span>
-  </div>
-  
-  <div class="color-container">
-      <div class="color-box" style="background-color: var(--tg-theme-divider-color);"></div>
-      <span class="color-name">tg-theme-divider-color</span>
-  </div>
-  
-  <div class="color-container">
-      <div class="color-box" style="background-color: var(--tg-theme-progress-bar-color);"></div>
-      <span class="color-name">tg-theme-progress-bar-color</span>
-  </div>
-  
-  <div class="color-container">
-      <div class="color-box" style="background-color: var(--tg-theme-scrollbar-color);"></div>
-      <span class="color-name">tg-theme-scrollbar-color</span>
-  </div>
-  
-  <div class="color-container">
-      <div class="color-box" style="background-color: var(--tg-theme-icon-color);"></div>
-      <span class="color-name">tg-theme-icon-color</span>
-  </div>
-  
-  <div class="color-container">
-      <div class="color-box" style="background-color: var(--tg-theme-notification-color);"></div>
-      <span class="color-name">tg-theme-notification-color</span>
-  </div>
-  
-  <div class="color-container">
-      <div class="color-box" style="background-color: var(--tg-theme-accent-color-light);"></div>
-      <span class="color-name">tg-theme-accent-color-light</span>
-  </div>
-  
-  <div class="color-container">
-      <div class="color-box" style="background-color: var(--tg-theme-accent-color-dark);"></div>
-      <span class="color-name">tg-theme-accent-color-dark</span>
-  </div>
-  
-  <div class="color-container">
-      <div class="color-box" style="background-color: var(--tg-theme-accent-color-transparent);"></div>
-      <span class="color-name">tg-theme-accent-color-transparent</span>
-  </div>
-  
-  </body>
+    <body>
+      <div class="container">
+        <div class="block choose-func">Choose func.</div>
+        <div class="func-row">
+          <input type="checkbox" id="checkbox1" class="custom-checkbox">
+          <label for="checkbox1" class="block func">func.</label>
+        </div>
+        <div class="func-row">
+          <input type="checkbox" id="checkbox2" checked class="custom-checkbox">
+          <label for="checkbox2" class="block func">func.</label>
+        </div>
+        <div class="func-row">
+          <input type="checkbox" id="checkbox3" class="custom-checkbox">
+          <label for="checkbox3" class="block func">func.</label>
+        </div>
+        <div class="func-row">
+          <input type="checkbox" id="checkbox4" class="custom-checkbox">
+          <label for="checkbox4" class="block func">func.</label>
+        </div>
+        <button class="block send">Send</div>
+      </div>
+    </body>
 </html>
